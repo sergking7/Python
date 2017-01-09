@@ -8,6 +8,7 @@ d = {}
 for line in f:
 
     #words = line.strip().split(' - ')
+    #words = line.strip().split(' - ')
 
     words = line.strip(' \t\n\r ').replace(' ','').split('-')
     #print(words)
